@@ -124,7 +124,6 @@ return array(
 		'Way\Generators\GeneratorsServiceProvider',
 		'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
 		'DaveJamesMiller\Breadcrumbs\ServiceProvider',		
-		'App\Modules\Contacts\ModuleProvider'
 	),
 
 	/*

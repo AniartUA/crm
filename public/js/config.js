@@ -12,13 +12,15 @@ var require = {
 		'jqueryMetisMenu':  'libs/plugins/metisMenu/jquery.metisMenu',
 		'text':				'libs/require.text',
 		//Aliases
-		'modules':			'app/modules'			
+        'pages':            'app/pages',
+		'modules':			'app/modules',
+        'components':       'app/components'
 	},
 	shim: {
 		'jqueryClock': ['jquery'],
 		'jqueryMetisMenu': ['jquery'],
 		'bootstrap': ['jquery'],
-		'inspinia': ['jquery', 'jqueryMetisMenu', 'bootstrap'],
+		'inspinia': ['jquery', 'jqueryMetisMenu', 'bootstrap']
 	},
 	deps: ['inspinia', 'common'],
 	waitSeconds: 0

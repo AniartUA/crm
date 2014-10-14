@@ -20,6 +20,9 @@ Route::get('/', array('as' => 'index', function(){
 	return View::make('layouts.main');
 }));
 
-//routes for "Settings"
+//routes for Settings
 Route::get('/settings', array('uses' => 'App\Controllers\Settings\SettingsController@index', 'as' => 'settings.index'));
 Route::resource('settings/mediatypes', 'App\Controllers\Settings\MediaTypesController', array('only' => array('index', 'store', 'create', 'update', 'destroy')));
+
+//routes for Contacts
+Route::resource('contacts', 'App\Controllers\ContactsController');

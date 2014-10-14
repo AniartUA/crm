@@ -1,6 +1,5 @@
 // Custom scripts
 $(document).ready(function () {
-	console.log('1');
     // metsiMenu
     $('#side-menu').metisMenu();
 

@@ -15,12 +15,19 @@ class MediaTypeRepository extends BaseRepository
 	 */
 	public function getAllByType($type)
 	{
-		$possibleTypes = $this->model->getPossibleTypes();
-		if(in_array($type, $possibleTypes)){
-			return $this->model->where('type', '=', $type)->get();
+		$mediaTypes = $this->getAll()->filter(function($mediaType) use ($type){
+			return $mediaType->type == $type;
+		});
+		
+		if($mediaTypes->isEmpty()){
+			return new \Illuminate\Support\Collection();
+		}
+		else{//reset keys
+			$mediaTypes->values();
 		}
 		
-		return new \Illuminate\Support\Collection();
+		
+		return $mediaTypes;
 	}
 }
 ?>

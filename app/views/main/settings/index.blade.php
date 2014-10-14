@@ -1,9 +1,5 @@
 @extends('layouts.main')
 
-@section('js-controller')
-	app/pages/settings
-@stop
-
 @section('content')
 <div class="col-lg-6">
 	<div class="ibox float-e-margins">

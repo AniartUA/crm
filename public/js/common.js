@@ -1,4 +1,5 @@
-require(['jquery', 'anicrm', 'backbone'], function($, AniCRM, Backbone){
+require(['jquery', 'backbone', 'app'], function($, Backbone, Application){
+    //добавляем событие для коллекций, которое срабатывает перед fetch запросом
 	(function() {
 		var fetch = Backbone.Collection.prototype.fetch;
 		Backbone.Collection.prototype.fetch = function() {
@@ -6,5 +7,14 @@ require(['jquery', 'anicrm', 'backbone'], function($, AniCRM, Backbone){
 			return fetch.apply(this, arguments);
 		};
 	})();
-	AniCRM.initClock('#navbar_top_clock');
+
+    //Создаем и запускаем приложение
+    var AniCRM = window.AniCRM = new Application();
+    AniCRM.start();
+
+    //инициализируем часы на верхней панели
+   AniCRM.includeComponent('Clock', function(ClockComponent){
+       var clock = new ClockComponent();
+       $('#navbar_top_clock').append(clock.el());
+   });
 });

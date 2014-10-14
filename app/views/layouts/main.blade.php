@@ -33,6 +33,6 @@
 		<!-- Mainly scripts -->
 		<script src="{{ URL::asset('js/libs/plugins/pace/pace.min.js') }}"></script>
 		<script type="text/javascript" src="{{ URL::asset('js/config.js') }}"></script>
-		<script data-main="@yield('js-controller')" src="{{ URL::asset('js/libs/require.js') }}"></script>
+		<script data-main="common" src="{{ URL::asset('js/libs/require.js') }}"></script>
 	</body>
 </html>

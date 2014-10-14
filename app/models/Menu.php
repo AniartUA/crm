@@ -60,10 +60,28 @@ class Menu
 		return $this;
 	}
 	
+	public function getItemUrl($id, $absolute = true)
+	{
+		$url	= false;
+		$item	= $this->getItem($id);
+		if($item){
+			$url = $item['url'];
+			if(!$absolute){
+				$url = parse_url($url, PHP_URL_PATH);
+				if(!$url){
+					$url = '';
+				}
+			}
+		}
+		
+		return $url;
+	}
+	
 	public function isItemActive($id)
 	{
-		if($item = $this->getItem($id)){
-			$url = $item['url'];
+		$url = $this->getItemUrl($id, false);
+		if($url !== false){
+			$url = ltrim($url, '/');
 			return (Request::is($url.'/*') || Request::is($url));
 		}
 		
@@ -78,7 +96,7 @@ class Menu
 			}
 		}
 		
-		return false;
+		return '';
 	}
 	
 }
