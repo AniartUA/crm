@@ -1,4 +1,4 @@
-define(['app/Component', './views/ClockView'], function(Component, ClockView){
+define(['modules/core/Component', './views/ClockView'], function(Component, ClockView){
    var ClockComponent = Component.extend({
        name: 'Clock',
        view: ClockView,

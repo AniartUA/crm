@@ -1,7 +1,4 @@
 @extends('layouts.main')
-@section('styles')
-	<link href="{{ URL::asset('css/plugins/dataTables/dataTables.bootstrap.css') }}" rel="stylesheet">
-@stop
 
 @section('content')
 <div class="row">
@@ -29,36 +26,16 @@
 					<i class="fa fa-plus"></i>
 					Новый контакт
 				</a>
-				<table id="contacts_list" class="table table-striped table-bordered table-hover">
-					<thead>
-						<tr>
-							<th>Имя</th>
-							<th>Телефон</th>
-							<th>Email</th>
-							<th>Мессенджер</th>
-						</tr>
-					</thead>
-					<tfoot>
-						<tr>
-							<th>Имя</th>
-							<th>Телефон</th>
-							<th>Email</th>
-							<th>Мессенджер</th>
-						</tr>
-					</tfoot>
-				</table>
+	    		<div id="contacts_table">
+
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
-@stop
-
-@section('scripts')
-	<script src="{{ URL::asset('js/plugins/dataTables/jquery.dataTables.js') }}"></script>
-	<script src="{{ URL::asset('js/plugins/dataTables/dataTables.bootstrap.js') }}"></script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-			$('#contacts_list').dataTable();
-		});
-	</script>
+<script type="text/javascript">
+    require(['app'], function(){
+        AniCRM.set('contactsList', {{ $contacts or undefined }});
+    });
+</script>
 @stop

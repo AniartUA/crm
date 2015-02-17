@@ -21,7 +21,14 @@ View::composer('main.navbar_side', function($view){
 	$menu = new App\Menu('sidebar', array(
 		array('id' => 'dashboard', 'title' => Lang::get('views/main.dashboard'), 'url' => URL::route('index'), 'iconClass' => 'fa fa-th-large'),
 		array('id' => 'contacts', 'title' => Lang::get('views/main.contacts'), 'url' => URL::route('contacts.index'), 'iconClass' => 'fa fa-user'),
-		array('id' => 'settings', 'title' => Lang::get('views/main.settings'), 'url' => URL::route('settings.index'), 'iconClass' => 'fa fa-gear')
+		array('id' => 'settings', 'title' => Lang::get('views/main.settings'), 'url' => URL::route('settings.index'), 'iconClass' => 'fa fa-gear'),
+        array(
+            'id' => 'tests',
+            'title' => 'Тесты',
+            'url' => URL::route('tests.index'),
+            'iconClass' => 'fa fa-pencil',
+            'items' => null //can create new App\Menu for second level
+        )
 	));
 	$view->with(array('menu' => $menu));
 });

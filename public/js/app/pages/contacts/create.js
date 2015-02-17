@@ -1,44 +1,21 @@
-require(['jquery', 'modules/contacts/views/EditContactView', 'anicrm'], function($, EditContactView){
-    console.log(AniCRM.get('mediaTypes'));
-	var editContactView = new EditContactView();
-	/*
-	AniCRM.includeComponent('media_types', 'DropdownInput', function(DropdownInput){
-		var phoneList = [
-		                 
-		   {
-			   id: 		1,
-			   value:	'0662404282',
-			   typeId:	1
-		   },
-		   {
-			   id:		2,
-			   value:	'0445648237',
-			   typeId:  16
-		   }
-		   
-		];
-		
-		var emailList = [];
-		var messengerList = [];
-		
-		var phonesDropdown = new DropdownInput({
-			typeCaption: 'Телефон',
-			mediaType: 'phone',
-			items: phoneList,
-		});
-		var emailsDropdown = new DropdownInput({
-			typeCaption: 'Email',
-			mediaType: 'email',
-			items: emailList
-		});
-		var messengersDropdown = new DropdownInput({
-			typeCaption: 'Messenger',
-			mediaType: 'messenger',
-			items: messengerList
-		});
-		$('#contact_phones').append(phonesDropdown.el());
-		$('#contact_emails').append(emailsDropdown.el());
-		$('#contact_messengers').append(messengersDropdown.el());
-	});
-	*/
+define(
+    ['jquery', 'modules/contacts/models/Contact', 'modules/contacts/views/EditFormView'],
+    function($, Contact, EditFormView){
+        var contact = AniCRM.create(Contact, 'Contact', AniCRM.get('contactData'), {parse: true});
+        var editContactView = AniCRM.create(EditFormView, 'EditContactForm', {
+            el: $('#edit_contact'),
+            mediaTypes: AniCRM.get('mediaTypes', []),
+            model: contact
+        });
+        editContactView.render();
+        editContactView.on({
+            'canceled': function() {
+                AniCRM.router.redirect('contacts')
+            },
+            'created': function(){
+                AniCRM.router.navigate('contacts/' + this.model.get('id') + '/edit', {replace: true});
+                this.getElement('buttonSave').html('Сохранить');
+            }
+        });
+        console.log(AniCRM);
 });

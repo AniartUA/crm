@@ -1,5 +1,7 @@
 <?php
 
+error_reporting(E_ALL ^ E_NOTICE);
+
 /*
 |--------------------------------------------------------------------------
 | Register The Laravel Class Loader
@@ -30,7 +32,7 @@ ClassLoader::addDirectories(array(
 |
 */
 
-Log::useFiles(storage_path().'/logs/laravel.log');
+Log::useFiles(storage_path().'/logs/lara.log');
 
 /*
 |--------------------------------------------------------------------------
@@ -45,9 +47,17 @@ Log::useFiles(storage_path().'/logs/laravel.log');
 |
 */
 
+
 App::error(function(Exception $exception, $code)
 {
 	Log::error($exception);
+});
+
+
+App::error(function(\App\Exceptions\ValidationException $exception, $code){
+    if(Request::ajax()){
+       return Response::json($exception->getErrors(), $exception->getCode());
+    }
 });
 
 /*

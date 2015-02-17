@@ -1,10 +1,12 @@
-/**
- * @class MediaTypeValueCollection
- */
 define(['backbone', '../models/MediaTypeValue'], function(Backbone, MediaTypeValue){
-   var MediaTypeValueCollection = new Backbone.Collection.extend({
-       model: MediaTypeValue
-   }) ;
+    /**
+     * @class
+     * @abstract
+     * @augments Backbone.Collection
+     */
+    var MediaTypeValueCollection = Backbone.Collection.extend({
+        model: MediaTypeValue
+    }) ;
 
     return MediaTypeValueCollection;
 });

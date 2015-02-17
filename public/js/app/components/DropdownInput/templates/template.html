@@ -1,19 +1,14 @@
-<script type="text/x-template" id="collection">
-	<label class="col-lg-4 control-label"><%- this.collection.typeCaption %></label>
-	<div id="<%= this.cid %>_items_container"  class="col-lg-8">
-	</div>
-</script>
 <script type="text/x-template" id="item">
-	<div class="input-group-btn">
+    <div class="input-group-btn">
 		<button type="button" class="btn btn-white dropdown-toggle"
 			data-toggle="dropdown">
 			<span id="<%- this.cid %>_type_name"><%- this.model.get('typeName') %></span> <span class="caret"></span>
 		</button>
 		<ul id="<%= this.cid %>_type_list" class="dropdown-menu">
-			<% this.model.collection.types.forEach(function(type){ %>
+			<% this.model.get('types').forEach(function(type){ %>
 			<li data-id="<%- type.id %>"><a href="javascript:void(0)"><%- type.name %></a></li>
 			<% }) %>
 		</ul>
 	</div>
-	<input id="<%- this.cid %>_input" name="types[<%- this.model.get('typeId') %>][<%- this.model.getId() %>]" type="text" value="<%- this.model.get('value') %>" class="form-control">
+	<input autocomplete="off" id="<%- this.cid %>_input" name="types[<%- this.model.get('typeId') %>][<%- this.model.getId() %>]" type="text" value="<%- this.model.get('value') %>" class="form-control">
 </script>

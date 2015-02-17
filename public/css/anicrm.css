@@ -6,3 +6,72 @@
 	font-size: 16px;
 	color: #1ab394;
 }
+
+.loader{
+    top: 0;
+    left: 0;
+    right: 0;
+    /*bottom: 0;*/
+    position: fixed;
+    z-index: 1000;
+    display: none;
+    margin: 0 auto;
+    max-width: 320px;
+}
+
+.loader-img{
+    background: url("../img/ajax-loader.gif");
+    width: 32px;
+    height: 32px;
+    display: none;
+    float: left;
+    position: relative;
+    top: -6px;
+    margin-right: 10px;
+}
+
+.alert-load {
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    color: #31708f;
+}
+
+#tests_list {
+    margin-bottom: 40px;
+}
+
+#tests_list .btn {
+    margin-left: 5px;
+}
+
+.pse-link {
+    text-decoration: none;
+    border-bottom: 1px dashed;
+}
+
+#contact_files.has-error{
+    border: 1px solid #ed5565;
+}
+
+.attached-file{
+    margin: 3px 0;
+}
+
+.attached-file .file-remove{
+    font-size: 15px;
+    padding-left: 10px;
+    cursor: pointer;
+    color: #E7EAEC;
+}
+
+.attached-file .file-remove:hover{
+    color: red;
+}
+
+#contacts_table {
+    table-layout: fixed;
+}
+
+#contacts_table th{
+    width: 1%;
+}

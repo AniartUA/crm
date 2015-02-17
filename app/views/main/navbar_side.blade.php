@@ -28,11 +28,44 @@
 				<div class="logo-element">IN+</div>
 			</li>
 			@foreach($menu->getItems() as $menuItem)
-			<li @if($menu->isItemActive($menuItem['id'])) class="active" @endif >
+		    <?$isActive = $menu->isItemActive($menuItem['id']);?>
+			<li @if( $isActive ) class="active" @endif >
 				<a href="{{{ $menuItem['url'] }}}">
-					<i class="{{ $menuItem['iconClass'] }}"></i> 
-					<span class="nav-label">{{ $menuItem['title'] }}</span> 
+				    @if( isset($menuItem['iconClass']) )
+					<i class="{{ $menuItem['iconClass'] }}"></i>
+					@endif
+					<span class="nav-label">{{{ $menuItem['title'] }}}</span>
+					@if(isset($menuItem['items']))
+					<span class="fa arrow"></span>
+					@endif
 				</a>
+				@if(isset($menuItem['items']))
+				<ul class="nav nav-second-level collapse @if( $isActive ) in @endif" style="height: auto">
+				    @foreach($menuItem['items']->getItems() as $menuItem2)
+				    <?$isActive2 = $menuItem['items']->isItemActive($menuItem2['id']);?>
+				    <li @if($isActive2) class="active" @endif >
+				        <a href="{{{$menuItem2['url']}}}">
+				            @if( isset($menuItem2['iconClass']))
+				            <i class="{{ $menuItem2['iconClass'] }}"></i>
+				            @endif
+				            {{{ $menuItem2['title'] }}}
+				            @if( isset($menuItem2['items'] ))
+				            <span class="fa arrow"></span>
+				            @endif
+				        </a>
+				        @if( isset($menuItem2['items']) )
+				        <ul class="nav nav-third-level collapse @if($isActive2) in @endif" style="height: auto">
+				            @foreach($menuItem2['items']->getItems as $menuItem3)
+				            <li @if($menuItem2['items']->isItemActive($menuItem3['id'])) class="active" @endif>
+				                <a href="{{{ $menuItem3['url']  }}}">{{{ $menuItem3['title']  }}}</a>
+				            </li>
+				            @endforeach
+				        </ul>
+				        @endif
+				    </li>
+				    @endforeach
+				</ul>
+				@endif
 			</li>
 			@endforeach;
 		</ul>

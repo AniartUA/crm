@@ -15,7 +15,7 @@ class MediaTypeRepository extends BaseRepository
 	 */
 	public function getAllByType($type)
 	{
-		$mediaTypes = $this->getAll()->filter(function($mediaType) use ($type){
+		$mediaTypes = $this->all()->filter(function($mediaType) use ($type){
 			return $mediaType->type == $type;
 		});
 		

@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="Список розміщень">
+<Table>
+<Row>
+<Cell><Data ss:Type="String">Номер</Data></Cell>
+<Cell><Data ss:Type="String">Продукт</Data></Cell>
+<Cell><Data ss:Type="String">Угода</Data></Cell>
+<Cell><Data ss:Type="String">Клієнт</Data></Cell>
+<Cell><Data ss:Type="String">Відповідальнй</Data></Cell>
+<Cell><Data ss:Type="String">Початок РК</Data></Cell>
+<Cell><Data ss:Type="String">Кінець РК</Data></Cell>
+<Cell><Data ss:Type="String">Статус</Data></Cell>
+<Cell><Data ss:Type="String">Файли (к-ть)</Data></Cell>
+<Cell><Data ss:Type="String">Ефірки (к-ть)</Data></Cell>
+<Cell><Data ss:Type="String">Рахунки (к-ть)</Data></Cell>
+<Cell><Data ss:Type="String">Прайс (без ПДВ)</Data></Cell>
+<Cell><Data ss:Type="String">Ціна (без ПДВ)</Data></Cell>
+<Cell><Data ss:Type="String">Знижка</Data></Cell>
+<Cell><Data ss:Type="String">Сума виставлених рахунків</Data></Cell>
+<Cell><Data ss:Type="String">Сума оплачених рахунків</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83758</Data></Cell>
+<Cell><Data ss:Type="String">Радіо Люкс ФМ - Львів - Блоки</Data></Cell>
+<Cell><Data ss:Type="String">Тест 1310</Data></Cell>
+<Cell><Data ss:Type="String">Спортландія</Data></Cell>
+<Cell><Data ss:Type="String">Хома О. Х.</Data></Cell>
+<Cell><Data ss:Type="String">20.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">24.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">Для виписки рахунку</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">100</Data></Cell>
+<Cell><Data ss:Type="Number">50</Data></Cell>
+<Cell><Data ss:Type="String">50%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83757</Data></Cell>
+<Cell><Data ss:Type="String">Радіо Люкс ФМ - Львів - Блоки</Data></Cell>
+<Cell><Data ss:Type="String">Тест 1310</Data></Cell>
+<Cell><Data ss:Type="String">Спортландія</Data></Cell>
+<Cell><Data ss:Type="String">Хома О. Х.</Data></Cell>
+<Cell><Data ss:Type="String">27.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">31.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">Выполнен</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="Number">1000</Data></Cell>
+<Cell><Data ss:Type="Number">500</Data></Cell>
+<Cell><Data ss:Type="String">50%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83756</Data></Cell>
+<Cell><Data ss:Type="String">Радіо Люкс ФМ - Львів - Блоки</Data></Cell>
+<Cell><Data ss:Type="String">Тест 1310</Data></Cell>
+<Cell><Data ss:Type="String">Спортландія</Data></Cell>
+<Cell><Data ss:Type="String">Хома О. Х.</Data></Cell>
+<Cell><Data ss:Type="String">27.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">30.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">На візуванні</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">500</Data></Cell>
+<Cell><Data ss:Type="Number">250</Data></Cell>
+<Cell><Data ss:Type="String">50%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83755</Data></Cell>
+<Cell><Data ss:Type="String">Радіо Люкс ФМ - Львів - Блоки</Data></Cell>
+<Cell><Data ss:Type="String">Тест 1310</Data></Cell>
+<Cell><Data ss:Type="String">Спортландія</Data></Cell>
+<Cell><Data ss:Type="String">Хома О. Х.</Data></Cell>
+<Cell><Data ss:Type="String">20.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">23.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">Зупинено</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">5000</Data></Cell>
+<Cell><Data ss:Type="Number">2500</Data></Cell>
+<Cell><Data ss:Type="String">50%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83754</Data></Cell>
+<Cell><Data ss:Type="String">Радіо Люкс ФМ - Львів - Блоки</Data></Cell>
+<Cell><Data ss:Type="String">Тест 1310</Data></Cell>
+<Cell><Data ss:Type="String">Спортландія</Data></Cell>
+<Cell><Data ss:Type="String">Хома О. Х.</Data></Cell>
+<Cell><Data ss:Type="String">20.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">24.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">Для виписки рахунку</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">1000</Data></Cell>
+<Cell><Data ss:Type="Number">500</Data></Cell>
+<Cell><Data ss:Type="String">50%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83753</Data></Cell>
+<Cell><Data ss:Type="String">Радіо Люкс ФМ - Львів - Блоки</Data></Cell>
+<Cell><Data ss:Type="String">Тест 1310</Data></Cell>
+<Cell><Data ss:Type="String">Спортландія</Data></Cell>
+<Cell><Data ss:Type="String">Хома О. Х.</Data></Cell>
+<Cell><Data ss:Type="String">20.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">26.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">В планах</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">500</Data></Cell>
+<Cell><Data ss:Type="Number">250</Data></Cell>
+<Cell><Data ss:Type="String">50%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83752</Data></Cell>
+<Cell><Data ss:Type="String">Радіо Люкс ФМ - Львів - Блоки</Data></Cell>
+<Cell><Data ss:Type="String">Тест 1310</Data></Cell>
+<Cell><Data ss:Type="String">Спортландія</Data></Cell>
+<Cell><Data ss:Type="String">Хома О. Х.</Data></Cell>
+<Cell><Data ss:Type="String">20.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">23.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">Выполнен</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">1000</Data></Cell>
+<Cell><Data ss:Type="Number">500</Data></Cell>
+<Cell><Data ss:Type="String">50%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83751</Data></Cell>
+<Cell><Data ss:Type="String">Радіо Люкс ФМ - Львів - Блоки</Data></Cell>
+<Cell><Data ss:Type="String">Тест 1310</Data></Cell>
+<Cell><Data ss:Type="String">Спортландія</Data></Cell>
+<Cell><Data ss:Type="String">Хома О. Х.</Data></Cell>
+<Cell><Data ss:Type="String">20.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">23.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">Зупинено</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="Number">1000</Data></Cell>
+<Cell><Data ss:Type="Number">500</Data></Cell>
+<Cell><Data ss:Type="String">50%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83750</Data></Cell>
+<Cell><Data ss:Type="String">Радіо Люкс ФМ - Львів - Блоки</Data></Cell>
+<Cell><Data ss:Type="String">Тест 1310</Data></Cell>
+<Cell><Data ss:Type="String">Спортландія</Data></Cell>
+<Cell><Data ss:Type="String">Хома О. Х.</Data></Cell>
+<Cell><Data ss:Type="String">20.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">26.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">Отказано в размещении</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">500</Data></Cell>
+<Cell><Data ss:Type="Number">250</Data></Cell>
+<Cell><Data ss:Type="String">50%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83749</Data></Cell>
+<Cell><Data ss:Type="String">Радіо Люкс ФМ - Львів - Блоки</Data></Cell>
+<Cell><Data ss:Type="String">Тест 1310</Data></Cell>
+<Cell><Data ss:Type="String">Спортландія</Data></Cell>
+<Cell><Data ss:Type="String">Ільчишин Н. І.</Data></Cell>
+<Cell><Data ss:Type="String">15.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">31.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">Отказано в размещении</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">1000</Data></Cell>
+<Cell><Data ss:Type="Number">250</Data></Cell>
+<Cell><Data ss:Type="String">75%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83748</Data></Cell>
+<Cell><Data ss:Type="String">Радіо Люкс ФМ - Мережа - Місяць здорового сну</Data></Cell>
+<Cell><Data ss:Type="String">Тест 1310</Data></Cell>
+<Cell><Data ss:Type="String">Спортландія</Data></Cell>
+<Cell><Data ss:Type="String">Хома О. Х.</Data></Cell>
+<Cell><Data ss:Type="String">14.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">16.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">Для виписки рахунку</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">5000</Data></Cell>
+<Cell><Data ss:Type="Number">500</Data></Cell>
+<Cell><Data ss:Type="String">90%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83747</Data></Cell>
+<Cell><Data ss:Type="String">Радіо Люкс ФМ - Мережа - Місяць здорового сну</Data></Cell>
+<Cell><Data ss:Type="String">Тест 1310</Data></Cell>
+<Cell><Data ss:Type="String">Спортландія</Data></Cell>
+<Cell><Data ss:Type="String">Хома О. Х.</Data></Cell>
+<Cell><Data ss:Type="String">20.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">24.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">Зупинено</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">500</Data></Cell>
+<Cell><Data ss:Type="Number">100</Data></Cell>
+<Cell><Data ss:Type="String">80%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83746</Data></Cell>
+<Cell><Data ss:Type="String">Радіо Люкс ФМ - Мережа - Місяць здорового сну</Data></Cell>
+<Cell><Data ss:Type="String">Тест 1310</Data></Cell>
+<Cell><Data ss:Type="String">Спортландія</Data></Cell>
+<Cell><Data ss:Type="String">Хома О. Х.</Data></Cell>
+<Cell><Data ss:Type="String">27.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">02.11.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">Отказано в размещении</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">1000</Data></Cell>
+<Cell><Data ss:Type="Number">500</Data></Cell>
+<Cell><Data ss:Type="String">50%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83745</Data></Cell>
+<Cell><Data ss:Type="String">Радіо 24 - Мережа - Брендування Хітів</Data></Cell>
+<Cell><Data ss:Type="String">Тест 1310</Data></Cell>
+<Cell><Data ss:Type="String">Спортландія</Data></Cell>
+<Cell><Data ss:Type="String">Ільчишин Н. І.</Data></Cell>
+<Cell><Data ss:Type="String">13.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">19.10.2014 01:00:00</Data></Cell>
+<Cell><Data ss:Type="String">Отказано в размещении</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">500</Data></Cell>
+<Cell><Data ss:Type="Number">250</Data></Cell>
+<Cell><Data ss:Type="String">50%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83744</Data></Cell>
+<Cell><Data ss:Type="String">Сайт Захід Нет - Відеоновина</Data></Cell>
+<Cell><Data ss:Type="String">Сюжет &amp;quot;Обличчя міста&amp;quot;</Data></Cell>
+<Cell><Data ss:Type="String">Галицька здоба</Data></Cell>
+<Cell><Data ss:Type="String">Любицька І. Л.</Data></Cell>
+<Cell><Data ss:Type="String">13.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">15.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">На зупинці</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">500</Data></Cell>
+<Cell><Data ss:Type="Number">500</Data></Cell>
+<Cell><Data ss:Type="String">0%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83743</Data></Cell>
+<Cell><Data ss:Type="String">24 канал Львів сюжет</Data></Cell>
+<Cell><Data ss:Type="String">Сюжет &amp;quot;Обличчя міста&amp;quot;</Data></Cell>
+<Cell><Data ss:Type="String">Галицька здоба</Data></Cell>
+<Cell><Data ss:Type="String">Любицька І. Л.</Data></Cell>
+<Cell><Data ss:Type="String">13.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">15.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">В работе</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">3500</Data></Cell>
+<Cell><Data ss:Type="Number">3500</Data></Cell>
+<Cell><Data ss:Type="String">0%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83742</Data></Cell>
+<Cell><Data ss:Type="String">Сайт Захід Нет - Відеоновина</Data></Cell>
+<Cell><Data ss:Type="String">10-17 жовтня 2014</Data></Cell>
+<Cell><Data ss:Type="String">Шувар</Data></Cell>
+<Cell><Data ss:Type="String">Любицька І. Л.</Data></Cell>
+<Cell><Data ss:Type="String">13.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">14.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">Зупинено</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">500</Data></Cell>
+<Cell><Data ss:Type="Number">500</Data></Cell>
+<Cell><Data ss:Type="String">0%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83741</Data></Cell>
+<Cell><Data ss:Type="String">Новий канал сюжети Наш Репортер</Data></Cell>
+<Cell><Data ss:Type="String">10-17 жовтня 2014</Data></Cell>
+<Cell><Data ss:Type="String">Шувар</Data></Cell>
+<Cell><Data ss:Type="String">Любицька І. Л.</Data></Cell>
+<Cell><Data ss:Type="String">13.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">14.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">На зупинці</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">2666.67</Data></Cell>
+<Cell><Data ss:Type="Number">2666.67</Data></Cell>
+<Cell><Data ss:Type="String">0%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83740</Data></Cell>
+<Cell><Data ss:Type="String">Новий канал блоки</Data></Cell>
+<Cell><Data ss:Type="String">Новий канал</Data></Cell>
+<Cell><Data ss:Type="String">Mediostar (Медіостар), центр краси</Data></Cell>
+<Cell><Data ss:Type="String">Гасюк М. Г.</Data></Cell>
+<Cell><Data ss:Type="String">13.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">26.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">На візуванні</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">3770</Data></Cell>
+<Cell><Data ss:Type="Number">3770</Data></Cell>
+<Cell><Data ss:Type="String">0%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83739</Data></Cell>
+<Cell><Data ss:Type="String">24 канал блоки поспотно</Data></Cell>
+<Cell><Data ss:Type="Number">140901</Data></Cell>
+<Cell><Data ss:Type="String">Sportlife</Data></Cell>
+<Cell><Data ss:Type="String">Мельник Я. М.</Data></Cell>
+<Cell><Data ss:Type="String">13.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">13.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">Закрито</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">12150</Data></Cell>
+<Cell><Data ss:Type="Number">12150</Data></Cell>
+<Cell><Data ss:Type="String">0%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83738</Data></Cell>
+<Cell><Data ss:Type="String">Новий канал блоки</Data></Cell>
+<Cell><Data ss:Type="String">Новий канал Львів_Шахтар</Data></Cell>
+<Cell><Data ss:Type="String">ОРТ Медіа Україна (ОРТ Медиа) РА</Data></Cell>
+<Cell><Data ss:Type="String">Фуглевич Н. Ф.</Data></Cell>
+<Cell><Data ss:Type="String">13.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">20.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">На зупинці</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">24888</Data></Cell>
+<Cell><Data ss:Type="Number">5971.2</Data></Cell>
+<Cell><Data ss:Type="String">76%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83737</Data></Cell>
+<Cell><Data ss:Type="String">24 канал Львів блоки</Data></Cell>
+<Cell><Data ss:Type="String">24 канал Львів _ ФК  Шахтар</Data></Cell>
+<Cell><Data ss:Type="String">ОРТ Медіа Україна (ОРТ Медиа) РА</Data></Cell>
+<Cell><Data ss:Type="String">Комашко У. К.</Data></Cell>
+<Cell><Data ss:Type="String">13.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">20.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">Закрито</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">20840</Data></Cell>
+<Cell><Data ss:Type="Number">5001.6</Data></Cell>
+<Cell><Data ss:Type="String">76%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83736</Data></Cell>
+<Cell><Data ss:Type="String">24 канал сюжети</Data></Cell>
+<Cell><Data ss:Type="String">2014ТВ_інформаційні сюжети</Data></Cell>
+<Cell><Data ss:Type="String">Медіа Вест</Data></Cell>
+<Cell><Data ss:Type="String">Шульга Я. Ш.</Data></Cell>
+<Cell><Data ss:Type="String">12.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">13.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">Закрито</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">18333.33</Data></Cell>
+<Cell><Data ss:Type="Number">18333.33</Data></Cell>
+<Cell><Data ss:Type="String">0%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83735</Data></Cell>
+<Cell><Data ss:Type="String">Новий канал сюжети Наш Репортер</Data></Cell>
+<Cell><Data ss:Type="String">2014 жовтень</Data></Cell>
+<Cell><Data ss:Type="String">Адамас</Data></Cell>
+<Cell><Data ss:Type="String">Войтів О. В.</Data></Cell>
+<Cell><Data ss:Type="String">14.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">15.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">На візуванні</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">2700</Data></Cell>
+<Cell><Data ss:Type="Number">2700</Data></Cell>
+<Cell><Data ss:Type="String">0%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83734</Data></Cell>
+<Cell><Data ss:Type="String">24 канал Львів блоки</Data></Cell>
+<Cell><Data ss:Type="String">2014 Свято шоколаду</Data></Cell>
+<Cell><Data ss:Type="String">ДікАрт</Data></Cell>
+<Cell><Data ss:Type="String">Войтів О. В.</Data></Cell>
+<Cell><Data ss:Type="String">11.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">18.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">На візуванні</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">7947</Data></Cell>
+<Cell><Data ss:Type="Number">2223.75</Data></Cell>
+<Cell><Data ss:Type="String">72%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83733</Data></Cell>
+<Cell><Data ss:Type="String">Новий канал блоки</Data></Cell>
+<Cell><Data ss:Type="String">2014 Свято шоколаду</Data></Cell>
+<Cell><Data ss:Type="String">ДікАрт</Data></Cell>
+<Cell><Data ss:Type="String">Войтів О. В.</Data></Cell>
+<Cell><Data ss:Type="String">10.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">18.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">На візуванні</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">18227.5</Data></Cell>
+<Cell><Data ss:Type="Number">4944.13</Data></Cell>
+<Cell><Data ss:Type="String">72%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83732</Data></Cell>
+<Cell><Data ss:Type="String">24 канал Проект &quot;Тематичні вечори&quot;</Data></Cell>
+<Cell><Data ss:Type="String">Жан Жак - Топ Сити 2014</Data></Cell>
+<Cell><Data ss:Type="String">Алеф корпорація  (Столетов,Золота амфора, Клінкоф, Соната, Жан-Жак, Helsinki, Українка)</Data></Cell>
+<Cell><Data ss:Type="String">Шпак А. Ш.</Data></Cell>
+<Cell><Data ss:Type="String">15.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">15.12.2014</Data></Cell>
+<Cell><Data ss:Type="String">В работе</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">190000</Data></Cell>
+<Cell><Data ss:Type="Number">136800</Data></Cell>
+<Cell><Data ss:Type="String">28%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83731</Data></Cell>
+<Cell><Data ss:Type="String">Новий канал блоки</Data></Cell>
+<Cell><Data ss:Type="String">виставки 2014</Data></Cell>
+<Cell><Data ss:Type="String">Гал-ЕКСПО, ПрАТ</Data></Cell>
+<Cell><Data ss:Type="String">Дорошенко Н. Д.</Data></Cell>
+<Cell><Data ss:Type="String">11.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">16.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">Закрито</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">17329</Data></Cell>
+<Cell><Data ss:Type="Number">4332</Data></Cell>
+<Cell><Data ss:Type="String">75%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83730</Data></Cell>
+<Cell><Data ss:Type="String">Радіо Люкс ФМ - Львів - Блоки</Data></Cell>
+<Cell><Data ss:Type="String">Львів Акустік Фест - медіа підтримка 2014</Data></Cell>
+<Cell><Data ss:Type="String">Львів Акустік Фест</Data></Cell>
+<Cell><Data ss:Type="String">Федоренко Ю. Ф.</Data></Cell>
+<Cell><Data ss:Type="String">13.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">19.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">На візуванні</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">4525.8</Data></Cell>
+<Cell><Data ss:Type="Number">1584.03</Data></Cell>
+<Cell><Data ss:Type="String">65%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83729</Data></Cell>
+<Cell><Data ss:Type="String">24 канал Львів блоки</Data></Cell>
+<Cell><Data ss:Type="String">виставки 2014</Data></Cell>
+<Cell><Data ss:Type="String">Гал-ЕКСПО, ПрАТ</Data></Cell>
+<Cell><Data ss:Type="String">Дорошенко Н. Д.</Data></Cell>
+<Cell><Data ss:Type="String">11.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">16.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">Закрито</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">17856</Data></Cell>
+<Cell><Data ss:Type="Number">4464</Data></Cell>
+<Cell><Data ss:Type="String">75%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83728</Data></Cell>
+<Cell><Data ss:Type="String">Радіо 24 &ndash; Львів &ndash; Блоки</Data></Cell>
+<Cell><Data ss:Type="String">Львів Акустік Фест - медіа підтримка 2014</Data></Cell>
+<Cell><Data ss:Type="String">Львів Акустік Фест</Data></Cell>
+<Cell><Data ss:Type="String">Федоренко Ю. Ф.</Data></Cell>
+<Cell><Data ss:Type="String">13.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">19.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">На візуванні</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">3192</Data></Cell>
+<Cell><Data ss:Type="Number">1117.2</Data></Cell>
+<Cell><Data ss:Type="String">64%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83727</Data></Cell>
+<Cell><Data ss:Type="String">Новий канал блоки</Data></Cell>
+<Cell><Data ss:Type="String">Львів Акустік Фест - медіа підтримка 2014</Data></Cell>
+<Cell><Data ss:Type="String">Львів Акустік Фест</Data></Cell>
+<Cell><Data ss:Type="String">Федоренко Ю. Ф.</Data></Cell>
+<Cell><Data ss:Type="String">13.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">19.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">Закрито</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">7212.5</Data></Cell>
+<Cell><Data ss:Type="Number">2524.38</Data></Cell>
+<Cell><Data ss:Type="String">64%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83726</Data></Cell>
+<Cell><Data ss:Type="String">24 канал Львів блоки</Data></Cell>
+<Cell><Data ss:Type="String">Львів Акустік Фест - медіа підтримка 2014</Data></Cell>
+<Cell><Data ss:Type="String">Львів Акустік Фест</Data></Cell>
+<Cell><Data ss:Type="String">Федоренко Ю. Ф.</Data></Cell>
+<Cell><Data ss:Type="String">13.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">19.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">Закрито</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">5000</Data></Cell>
+<Cell><Data ss:Type="Number">1750</Data></Cell>
+<Cell><Data ss:Type="String">65%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83725</Data></Cell>
+<Cell><Data ss:Type="String">Розміщення відео-реклами на комерційній основі через рекламну сітку</Data></Cell>
+<Cell><Data ss:Type="String">Адмиксер_сентябрь</Data></Cell>
+<Cell><Data ss:Type="String">Фан-медиа</Data></Cell>
+<Cell><Data ss:Type="String">Венгловська Н. В.</Data></Cell>
+<Cell><Data ss:Type="String">10.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">10.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">Закрито</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">10194.69</Data></Cell>
+<Cell><Data ss:Type="Number">10194.69</Data></Cell>
+<Cell><Data ss:Type="String">0%</Data></Cell>
+<Cell><Data ss:Type="Number">10194.69</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83724</Data></Cell>
+<Cell><Data ss:Type="String">Виготовлення аудіоролика у Львові</Data></Cell>
+<Cell><Data ss:Type="String">аудіо та відеопродакшн</Data></Cell>
+<Cell><Data ss:Type="String">Львівхолод</Data></Cell>
+<Cell><Data ss:Type="String">Станяк В. С.</Data></Cell>
+<Cell><Data ss:Type="String">10.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">13.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">В работе</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">446.86</Data></Cell>
+<Cell><Data ss:Type="Number">446.86</Data></Cell>
+<Cell><Data ss:Type="String">0%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83723</Data></Cell>
+<Cell><Data ss:Type="String">Радіо Люкс ФМ - Львів - Джингли</Data></Cell>
+<Cell><Data ss:Type="String">Люкс</Data></Cell>
+<Cell><Data ss:Type="String">Львівхолод</Data></Cell>
+<Cell><Data ss:Type="String">Станяк В. С.</Data></Cell>
+<Cell><Data ss:Type="String">14.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">14.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">В работе</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">1317</Data></Cell>
+<Cell><Data ss:Type="Number">553.14</Data></Cell>
+<Cell><Data ss:Type="String">58%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83722</Data></Cell>
+<Cell><Data ss:Type="String">Авторадіо - Львів - Блоки</Data></Cell>
+<Cell><Data ss:Type="String">Радіореклама</Data></Cell>
+<Cell><Data ss:Type="String">Феко ТзОВ</Data></Cell>
+<Cell><Data ss:Type="String">Галаїшин О. Г.</Data></Cell>
+<Cell><Data ss:Type="String">13.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">31.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">Выполнен</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="Number">2100</Data></Cell>
+<Cell><Data ss:Type="Number">2100</Data></Cell>
+<Cell><Data ss:Type="String">0%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83721</Data></Cell>
+<Cell><Data ss:Type="String">Наше Радіо - Львів - Блоки</Data></Cell>
+<Cell><Data ss:Type="String">Радіореклама</Data></Cell>
+<Cell><Data ss:Type="String">Феко ТзОВ</Data></Cell>
+<Cell><Data ss:Type="String">Галаїшин О. Г.</Data></Cell>
+<Cell><Data ss:Type="String">13.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">31.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">Выполнен</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="Number">2100</Data></Cell>
+<Cell><Data ss:Type="Number">2100</Data></Cell>
+<Cell><Data ss:Type="String">0%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83720</Data></Cell>
+<Cell><Data ss:Type="String">Радіо 24 &ndash; Львів &ndash; Блоки</Data></Cell>
+<Cell><Data ss:Type="String">Радіореклама</Data></Cell>
+<Cell><Data ss:Type="String">Феко ТзОВ</Data></Cell>
+<Cell><Data ss:Type="String">Галаїшин О. Г.</Data></Cell>
+<Cell><Data ss:Type="String">13.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">31.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">Выполнен</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="Number">2700</Data></Cell>
+<Cell><Data ss:Type="Number">2700</Data></Cell>
+<Cell><Data ss:Type="String">0%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">83719</Data></Cell>
+<Cell><Data ss:Type="String">Виготовлення аудіоролика у Львові</Data></Cell>
+<Cell><Data ss:Type="String">Радіореклама</Data></Cell>
+<Cell><Data ss:Type="String">Феко ТзОВ</Data></Cell>
+<Cell><Data ss:Type="String">Галаїшин О. Г.</Data></Cell>
+<Cell><Data ss:Type="String">10.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">10.10.2014</Data></Cell>
+<Cell><Data ss:Type="String">В работе</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">320</Data></Cell>
+<Cell><Data ss:Type="Number">320</Data></Cell>
+<Cell><Data ss:Type="String">0%</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+<Cell><Data ss:Type="Number">0.0</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>

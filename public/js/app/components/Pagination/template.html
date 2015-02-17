@@ -1,0 +1,20 @@
+<script type="x-template" id="active_table_pagination_view">
+    <div class="dataTables_info" role="status" >
+        Показано от <%= paginate.get('from') %> до <%= paginate.get('to') %> записей из <%= paginate.get('total') %>
+    </div>
+    <div class="dataTables_paginate paging_simple_numbers" >
+        <ul class="pagination">
+            <li class="paginate_button previous <% if(paginate.get('currentPage') < 2){ %> disabled <% }%>" tabindex="0">
+                <a href="#">Пред.</a>
+            </li>
+            <% for(var i = paginate.get('fromPage'); i <= paginate.get('toPage'); i++){ %>
+            <li class="paginate_button<% if(paginate.get('currentPage') == i){%> active <%}%>" tabindex="0">
+                <a href="#"><%= i %></a>
+            </li>
+            <% } %>
+            <li class="paginate_button next <% if(paginate.get('currentPage') == paginate.get('lastPage')){ %> disabled <% }%>" tabindex="0">
+                <a href="#">След.</a>
+            </li>
+        </ul>
+    </div>
+</script>

@@ -4,9 +4,13 @@ class MediaType extends BaseModel
 {
 	public $timestamps 	= false;
 	protected $rules	= array(
-		'id'	=> array('integer', 'min:0'),
-		'name'	=> array('required', 'unique:media_types,name', 'alpha_spaces', 'between:2,128'),
-		'type'	=> array('required', 'alpha')
+        'default' => array(
+            'name' => array('required', 'alpha_spaces', 'between:2,128'),
+            'type' => array('required', 'alpha')
+        ),
+        'create' => array(
+            'name' => array('unique:media_types,name')
+        )
 	);
 	protected $fillable = array('name', 'type');
 	

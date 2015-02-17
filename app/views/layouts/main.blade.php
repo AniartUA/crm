@@ -8,10 +8,14 @@
 	    <!-- CSS Files -->
 	    <link href="{{ URL::asset('css/bootstrap.min.css') }}" rel="stylesheet">
 	    <link href="{{ URL::asset('font-awesome/css/font-awesome.css') }}" rel="stylesheet">
+		@yield('styles')
 	    <link href="{{ URL::asset('css/animate.css') }}" rel="stylesheet">
 	    <link href="{{ URL::asset('css/style.css') }}" rel="stylesheet">
-		@yield('styles')
 	    <link href="{{ URL::asset('css/anicrm.css') }}" rel="stylesheet">
+		<!-- Mainly scripts -->
+		<script src="{{ URL::asset('js/libs/plugins/pace/pace.min.js') }}"></script>
+		<script type="text/javascript" src="{{ URL::asset('js/config.js') }}"></script>
+		<script data-main="app.js" src="{{ URL::asset('js/libs/require.js') }}"></script>
 	</head>
 	<body>
 		<div id="wrapper">
@@ -30,9 +34,5 @@
 				</div>
 			</div>
 		</div>
-		<!-- Mainly scripts -->
-		<script src="{{ URL::asset('js/libs/plugins/pace/pace.min.js') }}"></script>
-		<script type="text/javascript" src="{{ URL::asset('js/config.js') }}"></script>
-		<script data-main="common" src="{{ URL::asset('js/libs/require.js') }}"></script>
 	</body>
 </html>

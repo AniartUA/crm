@@ -1,0 +1,28 @@
+<script type="x-template" id="active_table_view">
+    <% var columns = scheme.get('columns').toJSON(); %>
+    <table id="" class="table table-striped dataTable">
+        <thead>
+            <tr role="row">
+            </tr>
+        </thead>
+        <tbody>
+            <% rows.each(function(rowModel, index){ %>
+            <tr role="row" class="<%= (index % 2 == 0) ? 'odd' : 'even' %>" >
+                <% _.each(columns, function(column){ %>
+                    <td>
+                        <div>
+                        <% if(rowModel.has(column.code)){ %>
+                            <%= scheme.modelValue(rowModel, column.code) %>
+                        <% } else {%>
+                            Атрибут "<%= column.code %>" не найден
+                        <% } %>
+                        </div>
+                    </td>
+                <% }) %>
+            </tr>
+            <% }) %>
+        </tbody>
+    </table>
+    <div class="active-table-pagination"></div>
+    <br clear="all" />
+</script>

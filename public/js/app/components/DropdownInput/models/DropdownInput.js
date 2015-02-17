@@ -1,48 +1,74 @@
 define(['backbone'], function(Backbone){
+
+    var setDefaultTypeId = function(model){
+        model.set('typeId', model.getDefaultTypeId());
+    };
+
+    var setTypeName = function(model, id){
+        var typeName = model.getTypeNameById(id);
+        model.set('typeName', typeName);
+    };
+
 	var Model = Backbone.Model.extend({
 		defaults: {
-			typeId: 	0,
+			typeId: 	'',
 			typeName:	'',
 			value:		'',
 			types:		[]
 		},
 		
 		initialize: function(){
-			this.on('change:typeId', this.changeTypeId);
-			if(_.isEmpty(this.get('types')) && this.collection){
-				this.set('types', this.collection.types);
-			}
-			if(!this.get('typeId')){
-				this.set('typeId', this.getDefaultTypeId());
-			}
-			this.changeTypeId(this, this.get('typeId'));
+            _.bindAll(this, 'getId', 'getDefaultTypeId', 'getTypeById', 'getTypeNameById');
+            //если тип не установлен, устанавливаем тип по умолчанию
+            if(!this.get('typeId')) {
+                setDefaultTypeId(this);
+            }
+            setTypeName(this, this.get('typeId'));
+
+            this.on('change:types', function(model){
+                //при изменении типов, если в новом списке типов нет текущего типа - устанавливаем тип по умолчанию
+                // и обновляем название типа
+                var typeId = model.get('typeId');
+                if(!model.getTypeById(typeId)) {
+                    setDefaultTypeId(model);
+                }else{
+                    setTypeName(model, typeId);
+                }
+            });
+            //при смене типа медиатипа - обновляем и название
+			this.on('change:typeId', setTypeName);
 		},
 		
 		getId: function(){
 			return (this.get('id') || '');
 		},
-		
-		changeTypeId: function(model, value){
-			var typeName = model.getTypeNameById(value);
-			this.set('typeName', typeName);
-		},
-		
+
 		getDefaultTypeId: function(){
 			if(this.get('types').length > 0){
 				return this.get('types')[0].id;
 			}
-			
-			return 0;
+
+			return '';
 		},
+
+        getTypeById: function(typeId){
+            var type = false;
+            this.get('types').forEach(function(t){
+                if(t.id == typeId){
+                    type = t;
+                    return;
+                }
+            });
+
+            return type;
+        },
 		
 		getTypeNameById: function(typeId){
 			var typeName = '';
-			this.get('types').forEach(function(type){
-				if(type.id == typeId){
-					typeName = type.name;
-				}
-			});
-			
+            var type;
+            if(type = this.getTypeById(typeId)){
+                typeName = type.name;
+            }
 			return typeName;
 		}
 	});
